@@ -7,6 +7,7 @@ The .NET 8 project `CSSumNet8` dies with a stack overflow in all these builds.
 * `dotnet build -c Debug`
 * `dotnet build -c Release`
 * `dotnet build -c Release -a x64`
+* `dotnet build -c Release -a arm64`
 
 The .NET Framework project `CSSumNetFramework` (which includes exactly the same `Program.cs` as `CSSumNet8`) dies with a stack overflow when built with one of these commands.
 
